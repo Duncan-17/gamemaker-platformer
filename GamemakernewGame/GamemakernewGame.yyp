@@ -1,5 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"ScrSpawn","path":"scripts/ScrSpawn/ScrSpawn.yy",},"order":11,},
+    {"id":{"name":"ScrBloodBlue","path":"scripts/ScrBloodBlue/ScrBloodBlue.yy",},"order":4,},
+    {"id":{"name":"ScrBloodeffect","path":"scripts/ScrBloodeffect/ScrBloodeffect.yy",},"order":5,},
+    {"id":{"name":"ScrBloodeffectblue","path":"scripts/ScrBloodeffectblue/ScrBloodeffectblue.yy",},"order":6,},
+    {"id":{"name":"KillPlayer","path":"scripts/KillPlayer/KillPlayer.yy",},"order":3,},
+    {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":2,},
+    {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":0,},
+    {"id":{"name":"ScrBloodGreen","path":"scripts/ScrBloodGreen/ScrBloodGreen.yy",},"order":8,},
+    {"id":{"name":"Bounce","path":"scripts/Bounce/Bounce.yy",},"order":1,},
+    {"id":{"name":"ScrBloodeffectgreen","path":"scripts/ScrBloodeffectgreen/ScrBloodeffectgreen.yy",},"order":7,},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":12,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":10,},
+    {"id":{"name":"ScrBloodRed","path":"scripts/ScrBloodRed/ScrBloodRed.yy",},"order":9,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
