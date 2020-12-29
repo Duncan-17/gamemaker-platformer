@@ -1,4 +1,0 @@
-{
-	KillPlayer()
-	ScrBlood()
-}
