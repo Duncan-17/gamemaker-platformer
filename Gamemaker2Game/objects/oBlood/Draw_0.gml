@@ -1,0 +1,1 @@
+draw_sprite_ext(sBlood, 0, x, y, image_xscale, image_yscale, 0, c_white, a);

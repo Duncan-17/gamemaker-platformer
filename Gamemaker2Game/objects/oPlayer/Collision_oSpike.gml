@@ -1,0 +1,4 @@
+{
+	KillPlayer()
+	ScrBloodRed()
+}
