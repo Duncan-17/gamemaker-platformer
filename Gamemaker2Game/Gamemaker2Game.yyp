@@ -91,6 +91,7 @@
     {"id":{"name":"oBouncegun","path":"objects/oBouncegun/oBouncegun.yy",},"order":1,},
     {"id":{"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},"order":14,},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":2,},
+    {"id":{"name":"Sprite79","path":"sprites/Sprite79/Sprite79.yy",},"order":82,},
     {"id":{"name":"oPickupGun","path":"objects/oPickupGun/oPickupGun.yy",},"order":3,},
     {"id":{"name":"oEBulletsmall","path":"objects/oEBulletsmall/oEBulletsmall.yy",},"order":11,},
     {"id":{"name":"sMovedown","path":"sprites/sMovedown/sMovedown.yy",},"order":12,},
