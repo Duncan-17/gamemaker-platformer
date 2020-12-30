@@ -48,9 +48,9 @@ walljumpdelay_fix = 0
 
 //checkpoints 
 
-if (global.checkpointR == room)
-{
-	x = global.checkpointX;
-	y = global.checkpointY;
-}
+//if (global.checkpointR == room)
+//{
+//	x = global.checkpointX;
+//	y = global.checkpointY;
+//}
 
