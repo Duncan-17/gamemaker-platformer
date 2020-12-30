@@ -80,6 +80,7 @@
     {"id":{"name":"oPickupGun","path":"objects/oPickupGun/oPickupGun.yy",},"order":8,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":6,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":4,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":6,},
     {"id":{"name":"ScrBloodRed","path":"scripts/ScrBloodRed/ScrBloodRed.yy",},"order":5,},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},"order":4,},
     {"id":{"name":"oBouncegunpickup","path":"objects/oBouncegunpickup/oBouncegunpickup.yy",},"order":3,},
