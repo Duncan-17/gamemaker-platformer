@@ -16,7 +16,6 @@ Bouncegunammo = global.Bouncegunammo
 global.Shotgunammo = 20
 Shotgunammo = global.Shotgunammo
 
-global.Lazergunammo = 500
-Lazergunammo = global.Shotgunammo
+
 
 

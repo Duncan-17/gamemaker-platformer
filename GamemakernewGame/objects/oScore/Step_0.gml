@@ -1,7 +1,7 @@
 if instance_exists(oGun) 
 {
 	global.hasGun = true
-	global.hasShotgun = false
+/global.hasShotgun = false
 	global.hasBouncegun = false
 	global.hasGunLazer = false
 }

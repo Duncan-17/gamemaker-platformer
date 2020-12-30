@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function KillPlayer()
 {
-	with (oShotgun) instance_destroy();
+	with(oShotgun) instance_destroy();
 	instance_change(oPDead,true);
 	direction = point_direction(other.x,other.y,x,y);
 	hsp = lengthdir_x(6,direction);
@@ -10,7 +10,7 @@ function KillPlayer()
 	if (sign(hsp) != 0) image_xscale = sign(hsp);
 	ScrBloodRed()
 
-with (oGun) instance_destroy();
+with(oGun) instance_destroy();
 instance_change(oPDead,true);
 direction = point_direction(other.x,other.y,x,y);
 hsp = lengthdir_x(6,direction);
@@ -19,7 +19,7 @@ if (sign(hsp) != 0) image_xscale = sign(hsp);
 ScrBloodRed()
 
 
-with (oBouncegun) instance_destroy();
+with(oBouncegun) instance_destroy();
 instance_change(oPDead,true);
 direction = point_direction(other.x,other.y,x,y);
 hsp = lengthdir_x(6,direction);
@@ -27,10 +27,10 @@ vsp = lengthdir_y(4,direction)-2;
 if (sign(hsp) != 0) image_xscale = sign(hsp);
 ScrBloodRed()
 
-global.coins = 0 + global.scoresave
-global.Shotgunammo = 0 + global.Shotgunammosave
-global.Gunammo = 0 + global.Shotgunammosave
-global.Bouncegunammo = 0 + global.Bouncegunammosave
+global.coins = global.scoresave
+global.Shotgunammo = global.Shotgunammosave
+global.Gunammo = global.Shotgunammosave
+global.Bouncegunammo =global.Bouncegunammosave
 }
 
 
