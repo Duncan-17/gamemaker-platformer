@@ -69,7 +69,7 @@ hsp -= hsp_frac;
 vsp -= vsp_frac;
 
 //horizontal Collision
-if (place_meeting(x+hsp,y,oWall) && (!place_meeting(x+hsp,y,oDeath)))
+if (place_meeting(x+hsp,y,oWall))// && (!place_meeting(x+hsp,y,oDeath)))
 {
 	var onepixel = sign(hsp);
 	while (!place_meeting(x+onepixel,y,oWall)) x += onepixel;
@@ -80,7 +80,7 @@ if (place_meeting(x+hsp,y,oWall) && (!place_meeting(x+hsp,y,oDeath)))
 x += hsp;
 
 //vertical collision
-if (place_meeting(x,y+vsp,oWall)&& (!place_meeting(x,y+vsp,oDeath)))
+if (place_meeting(x,y+vsp,oWall))// && (!place_meeting(x,y+vsp,oDeath)))
 {
 	var onepixel = sign(vsp);
 	while (!place_meeting(x,y+onepixel,oWall)) y += onepixel;

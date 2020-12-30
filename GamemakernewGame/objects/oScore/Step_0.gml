@@ -22,7 +22,7 @@ if instance_exists(oBouncegun)
 	global.hasGunLazer = false
 }
 
-if instance_exists(oGunLazer) 
+//if instance_exists(oGunLazer) 
 {
 	global.hasGun = false
 	global.hasShotgun = false
