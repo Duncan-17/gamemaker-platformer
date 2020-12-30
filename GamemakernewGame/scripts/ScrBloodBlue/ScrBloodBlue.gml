@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 function ScrBloodBlue(){
-	ScrLootBlue()
+	//ScrLootBlue()
 	repeat(50) {
 		b = instance_create_layer(x, y,"Blood", oBloodBlue);
 		b.speed = random_range(2, 10);

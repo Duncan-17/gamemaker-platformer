@@ -16,7 +16,4 @@ if (global.hasBouncegun = true)
 	instance_create_layer(x,y,"Gun",oBouncegun)
 }
 
-if (global.hasGunLazer = true)
-{
-	instance_create_layer(x,y,"Gun",oGunLazer)
-}
+

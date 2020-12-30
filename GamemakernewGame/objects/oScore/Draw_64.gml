@@ -38,12 +38,7 @@ draw_text(1000, 75, global.Bouncegunammo);
 draw_set_halign(fa_left);
 }
 
-if (global.hasGunLazer) {
-draw_set_color(c_green)
-draw_set_halign(fa_right);
-draw_text(1000, 75, global.Lazergunammo);
-draw_set_halign(fa_left);
-}
+
 
 
 
