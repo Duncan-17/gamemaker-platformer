@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 23,
   "bbox_right": 40,
-  "bbox_top": 19,
+  "bbox_top": 23,
   "bbox_bottom": 40,
   "HTile": false,
   "VTile": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 4,
+  "gridY": 4,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4b78f537-23e6-4321-87d1-27656ebc159d","path":"sprites/sPlayerA/sPlayerA.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4b78f537-23e6-4321-87d1-27656ebc159d","path":"sprites/sPlayerA/sPlayerA.yy",},"LayerId":{"name":"fe7ee938-9487-4b8c-ab84-a9af0a643114","path":"sprites/sPlayerA/sPlayerA.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
