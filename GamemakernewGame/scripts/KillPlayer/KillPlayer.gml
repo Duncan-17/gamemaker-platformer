@@ -18,6 +18,7 @@ vsp = lengthdir_y(4,direction)-2;
 if (sign(hsp) != 0) image_xscale = sign(hsp);
 ScrBloodRed()
 
+
 with (oBouncegun) instance_destroy();
 instance_change(oPDead,true);
 direction = point_direction(other.x,other.y,x,y);

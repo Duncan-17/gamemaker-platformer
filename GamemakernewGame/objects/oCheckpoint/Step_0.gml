@@ -20,3 +20,4 @@ if (place_meeting(x,y,oPlayer))
 	global.Shotgunammosave = global.Gunammo 
 	global.Bouncegunammosave = global.Bouncegunammo 
 }
+

@@ -1,6 +1,7 @@
 x = oPlayer.x;
 y = oPlayer.y;
 
+
 //aiming
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 

@@ -38,7 +38,7 @@ max_st = 100
 
 flash = 0
 
-stamina = 100
+
 
 pickupcooldown = 0;
 
@@ -48,9 +48,9 @@ walljumpdelay_fix = 0
 
 //checkpoints 
 
-//if (global.checkpointR == room)
-//{
-//	x = global.checkpointX;
-//	y = global.checkpointY;
-//}
+if (global.checkpointR == room)
+{
+	x = global.checkpointX;
+	y = global.checkpointY;
+}
 

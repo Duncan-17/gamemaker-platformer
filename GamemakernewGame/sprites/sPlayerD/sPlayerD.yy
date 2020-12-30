@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8111fdc7-a24f-4627-879d-6dbabb3edd21","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "GamemakernewGame",
-    "path": "GamemakernewGame.yyp",
+    "name": "Player",
+    "path": "folders/Sprites/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerD",
