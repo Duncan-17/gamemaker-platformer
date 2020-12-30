@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sWall_1",
-    "path": "sprites/sWall_1/sWall_1.yy",
+    "name": "sShotgunVending",
+    "path": "sprites/sShotgunVending/sShotgunVending.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oShotgunpickup","path":"objects/oShotgunpickup/oShotgunpickup.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Roomobjects",
-    "path": "folders/Objects/Roomobjects.yy",
+    "name": "collectables",
+    "path": "folders/Objects/collectables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall_1",
+  "name": "oShotgunpickup",
   "tags": [],
   "resourceType": "GMObject",
 }

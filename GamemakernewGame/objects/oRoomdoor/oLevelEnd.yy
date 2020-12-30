@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sTrigger",
+    "path": "sprites/sTrigger/sTrigger.yy",
   },
-  "solid": true,
-  "visible": true,
+  "solid": false,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects/Roomobjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oLevelEnd",
   "tags": [],
   "resourceType": "GMObject",
 }
