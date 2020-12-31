@@ -26,11 +26,9 @@ hsp = lengthdir_x(6,direction);
 vsp = lengthdir_y(4,direction)-2;
 if (sign(hsp) != 0) image_xscale = sign(hsp);
 ScrBloodRed()
+ScrBloodeffect()
 
-global.coins = global.scoresave
-global.Shotgunammo = global.Shotgunammosave
-global.Gunammo = global.Shotgunammosave
-global.Bouncegunammo =global.Bouncegunammosave
+
 }
 
 

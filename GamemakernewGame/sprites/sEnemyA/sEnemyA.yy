@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fe7ee938-9487-4b8c-ab84-a9af0a643114","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "enemy",
-    "path": "folders/Sprites/enemy.yy",
+    "name": "normal",
+    "path": "folders/Sprites/enemy/normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyA",

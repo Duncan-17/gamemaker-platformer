@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d3d8aa76-3818-4709-a23f-b8c5308642a4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "enemy",
-    "path": "folders/Sprites/enemy.yy",
+    "name": "normal",
+    "path": "folders/Sprites/enemy/normal.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEnemyR",

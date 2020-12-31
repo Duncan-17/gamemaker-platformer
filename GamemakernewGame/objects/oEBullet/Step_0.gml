@@ -1,5 +1,5 @@
-x += lengthdir_x(spd,direction);
-y += lengthdir_y(spd,direction);
+x += lengthdir_x(speed,direction);
+y += lengthdir_y(speed,direction);
 
 
 if (place_meeting(x,y,oWall)) && (image_index != 0)
@@ -9,7 +9,7 @@ if (place_meeting(x,y,oWall)) && (image_index != 0)
 		x -= lengthdir_x(1,direction);
 		y -= lengthdir_y(1,direction);
 	}
-	spd = 0;
+	speed = 0;
 	instance_change(oHitSparkE,true);
 }
 

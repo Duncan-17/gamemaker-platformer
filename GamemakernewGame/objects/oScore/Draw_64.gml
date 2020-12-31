@@ -17,26 +17,13 @@ draw_set_halign(fa_left);
 
 
 //gun ammo draw
-if (global.hasGun) {
-draw_set_color(c_gray)
-draw_set_halign(fa_right);
-draw_text(1000, 75, global.Gunammo);
-draw_set_halign(fa_left);
-}
+// has gun {
+//draw_set_color(c_gray)
+//draw_set_halign(fa_right);
+//draw_text(1000, 75, global.Gunammo);
+//draw_set_halign(fa_left);
+//}
 
-if (global.hasShotgun) {
-draw_set_color(c_red)
-draw_set_halign(fa_right);
-draw_text(1000, 75, global.Shotgunammo);
-draw_set_halign(fa_left);
-}
-
-if (global.hasBouncegun) {
-draw_set_color(c_blue)
-draw_set_halign(fa_right);
-draw_text(1000, 75, global.Bouncegunammo);
-draw_set_halign(fa_left);
-}
 
 
 

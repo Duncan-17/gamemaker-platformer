@@ -7,9 +7,9 @@ image_angle = point_direction(x,y,mouse_x,mouse_y)
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
-if (mouse_check_button(mb_left))  && (firingdelay < 0) && (global.Bouncegunammo > 0)
+if (mouse_check_button(mb_left))  && (firingdelay < 0) 
 {
-	global.Bouncegunammo = global.Bouncegunammo -1
+	
 	recoil = 4;
 	firingdelay = 10;
 	ScreenShake(2,5)

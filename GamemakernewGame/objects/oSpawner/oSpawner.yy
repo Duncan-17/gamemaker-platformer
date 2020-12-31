@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sDefault",
+    "path": "sprites/sDefault/sDefault.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -26,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Roomobjects",
+    "path": "folders/Objects/Roomobjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSpawner",
