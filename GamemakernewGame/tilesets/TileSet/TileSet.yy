@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTile",
+    "path": "sprites/sTile/sTile.yy",
+  },
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,
