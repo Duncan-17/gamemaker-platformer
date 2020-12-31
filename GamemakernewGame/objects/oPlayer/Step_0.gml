@@ -170,33 +170,23 @@ if (pickupcooldown < 0){
 	pickupcooldown = 0
 }
 
+//dynamic check
+Guncheck = Scritemcheck(0)
+if (Guncheck == 1)
+{
+	hasGun = true
+}
 //oGun
-if (place_meeting(x,y,oPickupGun) && (key_down) && pickupcooldown <= 0) && (global.coins >= 50)
+if (place_meeting(x,y,oPickupGun) && (key_down) && pickupcooldown <= 0) && (global.coins >= 50) && hasGun = false
 {
-global.Gunammo = global.Gunammo + 20
-global.coins = global.coins - 50
-pickupcooldown = pickupcooldown + 50
-if (instance_exists(oShotgun))
-{
-	with (instance_create_layer(x+random_range(15,50),y,"player",oShotgunloot))
-	instance_destroy(oShotgun)
-}
-if (instance_exists(oBouncegun))
-{
-	instance_create_layer(x+random_range(15,50),y,"player",oBouncegunloot)
-	instance_destroy(oBouncegun)
-}
-if (instance_exists(oGun))
-{
-	instance_destroy(oGun)
-	instance_create_layer(x+random_range(15,50),y,"player",oGunloot)
-}
-instance_create_layer(x,y,"Gun",oGun)
+	global.coins = global.coins - 50
+	Scritempickup(0)
+	pickupcooldown = pickupcooldown + 50
 }
 
 
 //oShotgun
-if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100)
+if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100) && (Scritemcheck(0) != 1)
 {
 global.Shotgunammo = global.Shotgunammo + 20
 global.coins = global.coins - 100
