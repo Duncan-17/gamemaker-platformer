@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"37ea698b-4c06-4084-8e81-70e54a28a641","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "extra",
+    "path": "folders/Sprites/extra.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBorder",

@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2c0f54f9-b7ad-4a89-b5fb-77e28413ff30","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "extra",
+    "path": "folders/Sprites/extra.yy",
   },
   "resourceVersion": "1.0",
   "name": "sItem",
