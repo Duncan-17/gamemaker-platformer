@@ -54,10 +54,15 @@ if (global.checkpointR == room)
 	y = global.checkpointY;
 }
 
+global.hasGun = false
+placeholder = global.hasGun
 
+global.hasShotgun = false
+placeholder1 = global.hasShotgun
 
 
 hasGun = false
+hasShotgun = false
 
 /*
 guncheck = Scritemcheck(0)

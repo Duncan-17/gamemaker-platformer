@@ -5,6 +5,10 @@ key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_up = keyboard_check(vk_up) or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
+
+key_1 = keyboard_check(ord("1"));
+key_2 = keyboard_check(ord("2"));
+
 //calc horizontal movement
 walljumpdelay = max(walljumpdelay-1,0);
 if (walljumpdelay == 0)
@@ -185,54 +189,49 @@ if (place_meeting(x,y,oPickupGun) && (key_down) && pickupcooldown <= 0) && (glob
 }
 
 
+//dynamic check
+Shotguncheck = Scritemcheck(1) 
+if (Shotguncheck == 1)
+{
+	hasShotgun = true
+}
 //oShotgun
-if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100) && (Scritemcheck(0) != 1)
+if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 50) && hasShotgun = false
 {
-global.Shotgunammo = global.Shotgunammo + 20
-global.coins = global.coins - 100
-pickupcooldown = pickupcooldown + 50
-if (instance_exists(oShotgun))
-{
-	instance_create_layer(x+15,y,"player",oShotgunloot)
-	instance_destroy(oShotgun)
-}
-if (instance_exists(oBouncegun))
-{
-	instance_create_layer(x+15,y,"player",oBouncegunloot)
-	instance_destroy(oBouncegun)
-}
-if (instance_exists(oGun))
-{
-	instance_destroy(oGun)
-	instance_create_layer(x+15,y,"player",oGunloot)
-}
-instance_create_layer(x,y,"Gun",oShotgun)
+	global.coins = global.coins - 50
+	Scritempickup(1)
+	pickupcooldown = pickupcooldown + 50
 }
 
-
-//oBouncegun
-if (place_meeting(x,y,oBouncegunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100)
+if (key_1 && global.inventory[0] = 0 && global.hasGun = false)
 {
-global.Bouncegunammo = global.Bouncegunammo + 20
-global.coins = global.coins - 100
-pickupcooldown = pickupcooldown + 50
-if (instance_exists(oShotgun))
-{
-	instance_create_layer(x+15,y,"player",oShotgunloot)
 	instance_destroy(oShotgun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oGun)
+	global.hasGun = true
+	global.hasShotgun = false
 }
-if (instance_exists(oBouncegun))
-{
-	instance_create_layer(x+15,y,"player",oBouncegunloot)
-	instance_destroy(oBouncegun)
-}
-if (instance_exists(oGun))
+if (key_1 && global.inventory[0] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
-	instance_create_layer(x+15,y,"player",oGunloot)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oShotgun)
+	global.hasGun = false
+	global.hasShotgun = true
 }
-instance_create_layer(x,y,"Gun",oBouncegun)
+if (key_2 && global.inventory[1] = 0 && global.hasGun = false)
+{
+	instance_destroy(oShotgun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oGun)
+	global.hasGun = true
+	global.hasShotgun = false
 }
+if (key_2 && global.inventory[1] = 1 && global.hasShotgun = false)
+{
+	instance_destroy(oGun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oShotgun)
+	global.hasGun = false
+	global.hasShotgun = true
+}
+
 
 
 //Vendingmachine
