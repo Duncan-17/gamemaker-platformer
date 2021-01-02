@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "collectables",
-    "path": "folders/Objects/collectables.yy",
+    "name": "Shotgun",
+    "path": "folders/Objects/collectables/Shotgun.yy",
   },
   "resourceVersion": "1.0",
   "name": "oShotgunpickup",

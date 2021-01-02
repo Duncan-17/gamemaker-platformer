@@ -8,6 +8,7 @@ key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
 key_1 = keyboard_check(ord("1"));
 key_2 = keyboard_check(ord("2"));
+key_3 = keyboard_check(ord("3"));
 
 //calc horizontal movement
 walljumpdelay = max(walljumpdelay-1,0);
@@ -196,42 +197,113 @@ if (Shotguncheck == 1)
 	hasShotgun = true
 }
 //oShotgun
-if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 50) && hasShotgun = false
+if (place_meeting(x,y,oShotgunpickup) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100) && hasShotgun = false
 {
-	global.coins = global.coins - 50
+	global.coins = global.coins - 100
 	Scritempickup(1)
 	pickupcooldown = pickupcooldown + 50
 }
 
+
+//dynamic check
+Riflecheck = Scritemcheck(2) 
+if (Riflecheck == 1)
+{
+	hasRifle = true
+}
+//rifle
+if (place_meeting(x,y,oPickupRifle) && (key_down) && pickupcooldown <= 0) && (global.coins >= 100) && hasRifle = false
+{
+	global.coins = global.coins - 100
+	Scritempickup(2)
+	pickupcooldown = pickupcooldown + 50
+}
+
+
+
+//keychecks
+
 if (key_1 && global.inventory[0] = 0 && global.hasGun = false)
 {
 	instance_destroy(oShotgun)
+	instance_destroy(oRifle)
 	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oGun)
 	global.hasGun = true
 	global.hasShotgun = false
+	global.hasRifle = false
 }
 if (key_1 && global.inventory[0] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
+	instance_destroy(oRifle)
 	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oShotgun)
 	global.hasGun = false
 	global.hasShotgun = true
+	global.hasRifle = false
+}
+if (key_1 && global.inventory[0] = 2 && global.hasRifle = false)
+{
+	instance_destroy(oGun)
+	instance_destroy(oShotgun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oRifle)
+	global.hasGun = false
+	global.hasShotgun = false
+	global.hasRifle = true
 }
 if (key_2 && global.inventory[1] = 0 && global.hasGun = false)
 {
 	instance_destroy(oShotgun)
+	instance_destroy(oRifle)
 	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oGun)
 	global.hasGun = true
 	global.hasShotgun = false
+	global.hasRifle = false
 }
 if (key_2 && global.inventory[1] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
+	instance_destroy(oRifle)
 	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oShotgun)
 	global.hasGun = false
 	global.hasShotgun = true
+	global.hasRifle = false
 }
-
+if (key_2 && global.inventory[1] = 2 && global.hasRifle = false)
+{
+	instance_destroy(oGun)
+	instance_destroy(oShotgun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oRifle)
+	global.hasGun = false
+	global.hasShotgun = false
+	global.hasRifle = true
+}
+if (key_3 && global.inventory[2] = 0 && global.hasGun = false)
+{
+	instance_destroy(oShotgun)
+	instance_destroy(oRifle)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oGun)
+	global.hasGun = true
+	global.hasShotgun = false
+	global.hasRifle = false
+}
+if (key_3 && global.inventory[2] = 1 && global.hasShotgun = false)
+{
+	instance_destroy(oGun)
+	instance_destroy(oRifle)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oShotgun)
+	global.hasGun = false
+	global.hasShotgun = true
+	global.hasRifle = false
+}
+if (key_3 && global.inventory[2] = 2 && global.hasRifle = false)
+{
+	instance_destroy(oGun)
+	instance_destroy(oShotgun)
+	instance_create_layer(oPlayer.x,oPlayer.y,"Gun",oRifle)
+	global.hasGun = false
+	global.hasShotgun = false
+	global.hasRifle = true
+}
 
 
 //Vendingmachine
@@ -242,10 +314,6 @@ pickupcooldown = pickupcooldown + 50
 if (instance_exists(oShotgun))
 {
 	global.Shotgunammo = global.Shotgunammo + 50
-}
-if (instance_exists(oBouncegun))
-{
-	global.Bouncegunammo = global.Bouncegunammo + 50
 }
 if (instance_exists(oGun))
 {

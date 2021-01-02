@@ -1,7 +1,6 @@
 //update destination
 
-if (instance_exists(follow))
-{
+	follow = oPlayer
 	xTo = follow.x;
 	yTo = follow.y-200;
 	if ((follow).object_index == oPDead)
@@ -10,7 +9,10 @@ if (instance_exists(follow))
 		y = yTo;
 		
 	}
-}
+
+
+
+
 
 //update object position
 

@@ -60,7 +60,11 @@ placeholder = global.hasGun
 global.hasShotgun = false
 placeholder1 = global.hasShotgun
 
+global.hasRifle = false
+placeholder2 = global.hasRifle
 
+
+hasRifle = false
 hasGun = false
 hasShotgun = false
 

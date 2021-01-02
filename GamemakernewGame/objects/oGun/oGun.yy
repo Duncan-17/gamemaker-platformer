@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "collectables",
-    "path": "folders/Objects/collectables.yy",
+    "name": "GUn",
+    "path": "folders/Objects/collectables/GUn.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGun",
