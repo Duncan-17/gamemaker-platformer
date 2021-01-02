@@ -1,13 +1,18 @@
 //update destination
 
-	follow = oPlayer
-	xTo = follow.x;
-	yTo = follow.y-200;
+	
+	
+	
 	if ((follow).object_index == oPDead)
 	{
 		x = xTo;
 		y = yTo;
 		
+	}
+	else
+	{
+		xTo = follow.x;
+	 yTo = follow.y-200;
 	}
 
 

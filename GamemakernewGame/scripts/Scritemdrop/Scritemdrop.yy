@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "inventory",
+    "path": "folders/Scripts/inventory.yy",
   },
   "resourceVersion": "1.0",
   "name": "Scritemdrop",
