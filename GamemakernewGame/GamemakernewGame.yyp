@@ -146,6 +146,7 @@
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":8,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"sLazerplaceholder","path":"sprites/sLazerplaceholder/sLazerplaceholder.yy",},"order":11,},
     {"id":{"name":"sBulletRifle","path":"sprites/sBulletRifle/sBulletRifle.yy",},"order":18,},
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},"order":7,},
     {"id":{"name":"oPickupGun","path":"objects/oPickupGun/oPickupGun.yy",},"order":2,},

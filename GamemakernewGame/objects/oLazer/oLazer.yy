@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDefault",
-    "path": "sprites/sDefault/sDefault.yy",
+    "name": "sLazerplaceholder",
+    "path": "sprites/sLazerplaceholder/sLazerplaceholder.yy",
   },
   "solid": false,
   "visible": true,
