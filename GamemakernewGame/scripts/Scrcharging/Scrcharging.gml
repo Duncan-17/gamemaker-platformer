@@ -3,9 +3,16 @@
 function Scrcharging(){
 	sprite_index = sLazercharging
 	image_speed = 1
-	if image_number = 20
+	if timercharging >= 50 
 	{
-		Scrdeadly()
+		timercharging = 50
+	}
+	timercharging = timercharging - 1
+	
+	if (timercharging <= 0)
+	{
+		state = Lazer_state.damaging
+		damagingcharging = 50
 	}
 
 }
