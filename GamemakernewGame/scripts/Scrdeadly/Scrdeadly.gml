@@ -3,11 +3,12 @@
 function Scrdeadly(){
 	sprite_index = sLazerdeadly
 	image_speed = 1
+
 	damagingcharging = damagingcharging - 1
 	if (damagingcharging <= 0)
 	{
 		state = Lazer_state.charging
-		timercharging = 50
+		timercharging = 100
 	}
 
 }

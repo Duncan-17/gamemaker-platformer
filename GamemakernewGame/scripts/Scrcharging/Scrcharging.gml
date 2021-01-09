@@ -3,9 +3,12 @@
 function Scrcharging(){
 	sprite_index = sLazercharging
 	image_speed = 1
-	if timercharging >= 50 
+	
+	
+	
+	if timercharging >= 100
 	{
-		timercharging = 50
+		timercharging = 100
 	}
 	timercharging = timercharging - 1
 	
