@@ -68,6 +68,11 @@ hasRifle = false
 hasGun = false
 hasShotgun = false
 
+inv = 1
+
+invcooldown = 20
+
+
 /*
 guncheck = Scritemcheck(0)
 if (guncheck == 1)

@@ -2,13 +2,44 @@
 //Get Player Input
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-key_up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+key_up = keyboard_check(vk_space) or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
 
 key_1 = keyboard_check(ord("1"));
 key_2 = keyboard_check(ord("2"));
 key_3 = keyboard_check(ord("3"));
+
+if key_3 {
+	inv = 3
+}
+
+if key_2 {
+	inv = 2
+}
+
+if key_1 {
+	inv = 1
+}
+/*
+key_back = keyboard_check(ord("Q"));
+key_forward = keyboard_check(ord("E"));
+invcooldown = invcooldown - 1
+if key_forward && invcooldown <= 0{
+	inv = inv + 1
+	invcooldown = 5
+}
+if key_back && invcooldown <= 0{
+	inv = inv -1
+	invcooldown = 5
+}
+if inv = 4{
+	inv = 0
+}
+if inv = 4{
+	inv = 0
+}
+*/
 
 //calc horizontal movement
 walljumpdelay = max(walljumpdelay-1,0);
@@ -223,7 +254,7 @@ if (place_meeting(x,y,oPickupRifle) && (key_down) && pickupcooldown <= 0) && (gl
 
 //keychecks
 
-if (key_1 && global.inventory[0] = 0 && global.hasGun = false)
+if (inv = 1 && global.inventory[0] = 0 && global.hasGun = false)
 {
 	instance_destroy(oShotgun)
 	instance_destroy(oRifle)
@@ -232,7 +263,7 @@ if (key_1 && global.inventory[0] = 0 && global.hasGun = false)
 	global.hasShotgun = false
 	global.hasRifle = false
 }
-if (key_1 && global.inventory[0] = 1 && global.hasShotgun = false)
+if (1 && global.inventory[0] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oRifle)
@@ -241,7 +272,7 @@ if (key_1 && global.inventory[0] = 1 && global.hasShotgun = false)
 	global.hasShotgun = true
 	global.hasRifle = false
 }
-if (key_1 && global.inventory[0] = 2 && global.hasRifle = false)
+if (inv = 1 && global.inventory[0] = 2 && global.hasRifle = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oShotgun)
@@ -250,7 +281,7 @@ if (key_1 && global.inventory[0] = 2 && global.hasRifle = false)
 	global.hasShotgun = false
 	global.hasRifle = true
 }
-if (key_2 && global.inventory[1] = 0 && global.hasGun = false)
+if (inv = 2 && global.inventory[1] = 0 && global.hasGun = false)
 {
 	instance_destroy(oShotgun)
 	instance_destroy(oRifle)
@@ -259,7 +290,7 @@ if (key_2 && global.inventory[1] = 0 && global.hasGun = false)
 	global.hasShotgun = false
 	global.hasRifle = false
 }
-if (key_2 && global.inventory[1] = 1 && global.hasShotgun = false)
+if (inv = 2 && global.inventory[1] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oRifle)
@@ -268,7 +299,7 @@ if (key_2 && global.inventory[1] = 1 && global.hasShotgun = false)
 	global.hasShotgun = true
 	global.hasRifle = false
 }
-if (key_2 && global.inventory[1] = 2 && global.hasRifle = false)
+if (inv = 2 && global.inventory[1] = 2 && global.hasRifle = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oShotgun)
@@ -277,7 +308,7 @@ if (key_2 && global.inventory[1] = 2 && global.hasRifle = false)
 	global.hasShotgun = false
 	global.hasRifle = true
 }
-if (key_3 && global.inventory[2] = 0 && global.hasGun = false)
+if (inv = 3 && global.inventory[2] = 0 && global.hasGun = false)
 {
 	instance_destroy(oShotgun)
 	instance_destroy(oRifle)
@@ -286,7 +317,7 @@ if (key_3 && global.inventory[2] = 0 && global.hasGun = false)
 	global.hasShotgun = false
 	global.hasRifle = false
 }
-if (key_3 && global.inventory[2] = 1 && global.hasShotgun = false)
+if (inv = 3 && global.inventory[2] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oRifle)
@@ -295,7 +326,7 @@ if (key_3 && global.inventory[2] = 1 && global.hasShotgun = false)
 	global.hasShotgun = true
 	global.hasRifle = false
 }
-if (key_3 && global.inventory[2] = 2 && global.hasRifle = false)
+if (inv = 3 && global.inventory[2] = 2 && global.hasRifle = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oShotgun)
