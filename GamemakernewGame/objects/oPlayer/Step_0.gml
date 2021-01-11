@@ -21,7 +21,7 @@ if key_2 {
 if key_1 {
 	inv = 1
 }
-/*
+
 key_back = keyboard_check(ord("Q"));
 key_forward = keyboard_check(ord("E"));
 invcooldown = invcooldown - 1
@@ -39,7 +39,7 @@ if inv = 4{
 if inv = 4{
 	inv = 0
 }
-*/
+
 
 //calc horizontal movement
 walljumpdelay = max(walljumpdelay-1,0);
@@ -263,7 +263,7 @@ if (inv = 1 && global.inventory[0] = 0 && global.hasGun = false)
 	global.hasShotgun = false
 	global.hasRifle = false
 }
-if (1 && global.inventory[0] = 1 && global.hasShotgun = false)
+if (inv = 1 && global.inventory[0] = 1 && global.hasShotgun = false)
 {
 	instance_destroy(oGun)
 	instance_destroy(oRifle)
