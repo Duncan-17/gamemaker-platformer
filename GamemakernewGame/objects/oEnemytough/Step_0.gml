@@ -1,7 +1,5 @@
 
 
-
-
 vsp=vsp + grv;
 
 // dont walk off edges

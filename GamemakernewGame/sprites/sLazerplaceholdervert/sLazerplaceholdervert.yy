@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a4a207b-2844-4722-95a3-4541e7e24461","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Lazer",
+    "path": "folders/Sprites/objects/Lazer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sLazerplaceholdervert",

@@ -30,8 +30,6 @@ ScrBloodRed()
 ScrBloodeffect()
 
 
-
-
 }
 
 

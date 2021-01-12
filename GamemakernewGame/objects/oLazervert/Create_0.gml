@@ -6,6 +6,6 @@ damagingvert
 
 state = Lazervert_state.chargingvert;
 
-timercharging = 50
+timercharging = timerchargeinnitial
 
 damagingcharging = 50

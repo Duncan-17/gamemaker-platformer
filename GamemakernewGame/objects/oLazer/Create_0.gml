@@ -6,6 +6,8 @@ damaging
 
 state = Lazer_state.charging;
 
-timercharging = 50
+timercharging = timerchargeinnitial
 
 damagingcharging = 50
+
+

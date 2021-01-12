@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"101d0659-7fd5-4e00-93b4-724ba280fa44","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Lazer",
+    "path": "folders/Sprites/objects/Lazer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sLazerchargingvert",
