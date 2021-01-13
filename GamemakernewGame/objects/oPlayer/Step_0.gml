@@ -104,14 +104,26 @@ vsp_frac = frac(vsp);
 hsp -= hsp_frac;
 vsp -= vsp_frac;
 
+
+
+
+
 //horizontal Collision
-if (place_meeting(x+hsp,y,oWall))// && (!place_meeting(x+hsp,y,oDeath)))
+if (place_meeting(x+hsp,y,oWall) && !place_meeting(x+hsp,y,oPlatfromH))// && (!place_meeting(x+hsp,y,oDeath)))
 {
 	var onepixel = sign(hsp);
 	while (!place_meeting(x+onepixel,y,oWall)) x += onepixel;
-	hsp = 0;
+	
+	hsp = 0
 	hsp_frac = 0;
 }
+
+if (place_meeting(x - other.hsp,y,oPlatfromH))// && (!place_meeting(x+hsp,y,oDeath)))
+{
+	hp = 0
+}
+
+
 //horizontal move
 x += hsp;
 
@@ -123,6 +135,9 @@ if (place_meeting(x,y+vsp,oWall))// && (!place_meeting(x,y+vsp,oDeath)))
 	vsp = 0;
 	vsp_frac = 0;
 }
+
+
+
 //vertical move
 y += vsp;
 

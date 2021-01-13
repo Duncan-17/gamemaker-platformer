@@ -3,6 +3,9 @@ vsp = 0;
 hsp_frac = 0;
 vsp_frac = 0;
 
+hspcarry = 0
+
+
 hsp_acc = 1;
 hsp_fric_ground = 0.50;
 hsp_fric_air = 0.15;
