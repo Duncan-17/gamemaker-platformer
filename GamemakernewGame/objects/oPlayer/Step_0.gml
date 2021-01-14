@@ -4,7 +4,7 @@ key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_up = keyboard_check(vk_space) or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
-
+key_up_held = keyboard_check(vk_space) or keyboard_check(ord("W"));
 
 key_1 = keyboard_check(ord("1"));
 key_2 = keyboard_check(ord("2"));
@@ -96,6 +96,9 @@ if(jumpbuffer > 0)
 }
 vsp = clamp(vsp,-vsp_max,vsp_max)
 
+
+if (vsp < 0) && (!key_up_held) vsp = -max(vsp,0)
+
 //dump fractions and final intiger speed
 hsp += hsp_frac;
 vsp += vsp_frac;
@@ -109,7 +112,7 @@ vsp -= vsp_frac;
 
 
 //horizontal Collision
-if (place_meeting(x+hsp,y,oWall) && !place_meeting(x+hsp,y,oPlatfromH))// && (!place_meeting(x+hsp,y,oDeath)))
+if (place_meeting(x+hsp,y,oWall)) // && (!place_meeting(x+hsp,y,oDeath)))
 {
 	var onepixel = sign(hsp);
 	while (!place_meeting(x+onepixel,y,oWall)) x += onepixel;
@@ -118,10 +121,6 @@ if (place_meeting(x+hsp,y,oWall) && !place_meeting(x+hsp,y,oPlatfromH))// && (!p
 	hsp_frac = 0;
 }
 
-if (place_meeting(x - other.hsp,y,oPlatfromH))// && (!place_meeting(x+hsp,y,oDeath)))
-{
-	hp = 0
-}
 
 
 //horizontal move

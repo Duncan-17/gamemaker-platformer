@@ -1,7 +1,7 @@
 image_angle = direction;
 image_alpha = alpha;
 
-if (place_meeting(x,y,oWall) && (!place_meeting(x,y,oCrate))  && (!place_meeting(x,y,oPlatfromH))) {
+if (place_meeting(x,y,oWall) && (!place_meeting(x,y,oCrate))  ) {
 	visible = false;
 	if (speed > 0) {
 		speed -= slowdown;
