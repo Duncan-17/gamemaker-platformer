@@ -80,6 +80,7 @@ if (onwall != 0) && (vsp >0)
 	grv_final = grv_wall;
 	vsp_max_final = vsp_max_wall;
 }
+
 vsp += grv_final;
 vsp = clamp(vsp,-vsp_max_final,vsp_max_final)
 
@@ -187,7 +188,7 @@ else
 	
 
 
- 
+
 
 //extra 
 if (mouse_check_button(mb_right) && (st > 0)) 

@@ -64,7 +64,6 @@
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":3,},
     {"id":{"name":"sEnemycannon","path":"sprites/sEnemycannon/sEnemycannon.yy",},"order":0,},
     {"id":{"name":"sBounceGunVending","path":"sprites/sBounceGunVending/sBounceGunVending.yy",},"order":3,},
-    {"id":{"name":"Roomnotwork","path":"rooms/Roomnotwork/Roomnotwork.yy",},"order":2,},
     {"id":{"name":"TileSetdecor","path":"tilesets/TileSetdecor/TileSetdecor.yy",},"order":1,},
     {"id":{"name":"oScore","path":"objects/oScore/oScore.yy",},"order":11,},
     {"id":{"name":"oShotgun","path":"objects/oShotgun/oShotgun.yy",},"order":0,},
@@ -165,6 +164,7 @@
     {"id":{"name":"oPlatfromenemyV","path":"objects/oPlatfromenemyV/oPlatfromenemyV.yy",},"order":14,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"Roomnotwork","path":"rooms/Roomnotwork/Roomnotwork.yy",},"order":2,},
     {"id":{"name":"sLazerplaceholder","path":"sprites/sLazerplaceholder/sLazerplaceholder.yy",},"order":4,},
     {"id":{"name":"oLazervert","path":"objects/oLazervert/oLazervert.yy",},"order":10,},
     {"id":{"name":"splatformenemyH","path":"sprites/splatformenemyH/splatformenemyH.yy",},"order":11,},
@@ -198,8 +198,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
-    {"roomId":{"name":"RoomWork","path":"rooms/RoomWork/RoomWork.yy",},},
     {"roomId":{"name":"Roomnotwork","path":"rooms/Roomnotwork/Roomnotwork.yy",},},
+    {"roomId":{"name":"RoomWork","path":"rooms/RoomWork/RoomWork.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

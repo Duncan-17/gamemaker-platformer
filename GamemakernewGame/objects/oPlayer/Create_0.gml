@@ -1,9 +1,9 @@
+
+
 hsp = 0;
 vsp = 0;
 hsp_frac = 0;
 vsp_frac = 0;
-
-
 
 
 hsp_acc = 1;
@@ -51,11 +51,12 @@ walljumpdelay_fix = 0
 
 //checkpoints 
 
-if (global.checkpointR == room)
+if (global.checkpoint == room)
 {
 	x = global.checkpointX;
 	y = global.checkpointY;
 }
+
 
 global.hasGun = false
 placeholder = global.hasGun
