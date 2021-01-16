@@ -12,7 +12,7 @@ hsp_fric_air = 0.15;
 hsp_walk = 4;
 hsp_wup = 4;
 
-vsp_jump = -7;
+vsp_jump = -8;
 vsp_max = 10;
 vsp_wup = -5;
 vsp_max_wall = 4;
@@ -51,11 +51,12 @@ walljumpdelay_fix = 0
 
 //checkpoints 
 
-if (global.checkpoint == room)
+if (global.checkpointR == room && !global.checkpoint == 0)
 {
 	x = global.checkpointX;
 	y = global.checkpointY;
 }
+
 
 
 global.hasGun = false
