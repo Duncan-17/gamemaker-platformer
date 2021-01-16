@@ -22,14 +22,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oBloodBlue","path":"objects/oBloodBlue/oBloodBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"oBloodBlue","path":"objects/oBloodBlue/oBloodBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oBloodBlue","path":"objects/oBloodBlue/oBloodBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oBloodBlue","path":"objects/oBloodBlue/oBloodBlue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "bullets",
-    "path": "folders/Objects/bullets.yy",
+    "name": "Main",
+    "path": "folders/Objects/Main.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBloodBlue",

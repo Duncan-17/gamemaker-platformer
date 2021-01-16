@@ -14,7 +14,7 @@ if (place_meeting(x,y,oWall) && (!place_meeting(x,y,oCrate))) {
 	}
 	else {
 		surface_set_target(global.surface_blood);
-		draw_sprite_ext(sBloodBlue, 0, x, y, image_xscale, image_yscale, image_angle, c_white, alpha);
+		draw_sprite_ext(sBloodeffectblue, 0, x, y, image_xscale, image_yscale, image_angle, c_white, alpha);
 		surface_reset_target();
 	}
 }

@@ -2,9 +2,11 @@
 //Get Player Input
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-key_up = keyboard_check(vk_space) or keyboard_check(ord("W"));
+key_up = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 key_up_held = keyboard_check(vk_space) or keyboard_check(ord("W"));
+key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
 
 key_1 = keyboard_check(ord("1"));
 key_2 = keyboard_check(ord("2"));
@@ -75,7 +77,7 @@ if (walljumpdelay_fix < 0) { walljumpdelay_fix = 0}
 //calc vertical movement
 var grv_final = grv;
 var vsp_max_final = vsp_max;
-if (onwall != 0) && (vsp >0)
+if (onwall != 0) && (vsp >0) 
 {
 	grv_final = grv_wall;
 	vsp_max_final = vsp_max_wall;
@@ -88,7 +90,7 @@ vsp = clamp(vsp,-vsp_max_final,vsp_max_final)
 if(jumpbuffer > 0)
 {
 	jumpbuffer--;
-	if (key_up)
+	if (key_up) 
 	{
 		jumpbuffer = 0;
 		vsp = vsp_jump;
