@@ -1,5 +1,5 @@
 key_down = 0
-
+jumpbufferwall = 1
 hsp = 0;
 vsp = 0;
 hsp_frac = 0;

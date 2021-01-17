@@ -4,7 +4,7 @@ key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_up = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
-key_up_held = keyboard_check(vk_space) or keyboard_check(ord("W"));
+key_up_held = keyboard_check(vk_space) or keyboard_check(ord("W")) //&& (!keyboard_check_pressed(vk_space) or !(keyboard_check_pressed(ord("W")))));
 key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
 
@@ -23,6 +23,7 @@ if key_2 {
 if key_1 {
 	inv = 1
 }
+
 
 key_back = keyboard_check(ord("Q"));
 key_forward = keyboard_check(ord("E"));
@@ -59,15 +60,20 @@ if (walljumpdelay == 0)
 }
 
 //wall jump
-if (onwall !=0) && (onground = false) && (key_up) && (walljumpdelay_fix = 0)
+
+
+	if (onwall !=0) && (onground = false) && (key_up or key_up_held) && (walljumpdelay_fix = 0)
 {
 	walljumpdelay = walljumpdelay_max;
 	hsp = -onwall * hsp_wup;
 	vsp = vsp_wup;
 	
+	
 	hsp_frac = 0;
 	vsp_frac = 0;
 }
+
+
 
 if (onground) {walljumpdelay_fix = 10} 
 walljumpdelay_fix = walljumpdelay_fix - 1
@@ -90,7 +96,7 @@ vsp = clamp(vsp,-vsp_max_final,vsp_max_final)
 if(jumpbuffer > 0)
 {
 	jumpbuffer--;
-	if (key_up) 
+	if (key_up) or (key_up_held)
 	{
 		jumpbuffer = 0;
 		vsp = vsp_jump;

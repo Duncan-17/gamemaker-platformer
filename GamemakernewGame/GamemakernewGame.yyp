@@ -60,6 +60,7 @@
     {"id":{"name":"Sound7","path":"sounds/Sound7/Sound7.yy",},"order":6,},
     {"id":{"name":"ScrBloodeffectblue","path":"scripts/ScrBloodeffectblue/ScrBloodeffectblue.yy",},"order":1,},
     {"id":{"name":"KillPlayer","path":"scripts/KillPlayer/KillPlayer.yy",},"order":3,},
+    {"id":{"name":"oBloodcontrolerbackground","path":"objects/oBloodcontrolerbackground/oBloodcontrolerbackground.yy",},"order":20,},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},"order":2,},
     {"id":{"name":"sEnemycannon","path":"sprites/sEnemycannon/sEnemycannon.yy",},"order":0,},
     {"id":{"name":"sBounceGunVending","path":"sprites/sBounceGunVending/sBounceGunVending.yy",},"order":3,},
