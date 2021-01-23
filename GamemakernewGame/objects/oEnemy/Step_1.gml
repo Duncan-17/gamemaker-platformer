@@ -28,6 +28,7 @@ if (hp <= 0)
 	{
 		ScrBloodBlue();
 		ScrBloodeffectblue();
+		
 	}
 }
 
