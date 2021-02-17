@@ -1,3 +1,7 @@
+if spread > .5 
+{
+	spread = .5
+}
 
 //Get Player Input
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));

@@ -23,6 +23,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oEnemyupsidedown","path":"objects/oEnemyupsidedown/oEnemyupsidedown.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":832.0,"resourceVersion":"1.0","name":"inst_54A9B258","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oEnemyupsidedown","path":"objects/oEnemyupsidedown/oEnemyupsidedown.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":864.0,"resourceVersion":"1.0","name":"inst_18326DD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oEnemyupsidedown","path":"objects/oEnemyupsidedown/oEnemyupsidedown.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1504.0,"y":864.0,"resourceVersion":"1.0","name":"inst_514C6F33","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2848.0,"y":288.0,"resourceVersion":"1.0","name":"inst_6B960B00","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Gun","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":704.0,"resourceVersion":"1.0","name":"inst_24CFE230","tags":[],"resourceType":"GMRInstance",},
@@ -300,6 +301,7 @@
     {"name":"inst_32A4D05B","path":"rooms/RoomWork/RoomWork.yy",},
     {"name":"inst_1FF19BD0","path":"rooms/RoomWork/RoomWork.yy",},
     {"name":"inst_20EBB3F3","path":"rooms/RoomWork/RoomWork.yy",},
+    {"name":"inst_6B960B00","path":"rooms/RoomWork/RoomWork.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

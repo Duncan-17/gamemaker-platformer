@@ -27,6 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"50fd9062-1694-4c29-8a1a-f17b811922a4","path":"sprites/sBlood/sBlood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"50fd9062-1694-4c29-8a1a-f17b811922a4","path":"sprites/sBlood/sBlood.yy",},"LayerId":{"name":"cbb00ee8-3064-47d3-8956-c558179aa8c8","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBlood","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","name":"50fd9062-1694-4c29-8a1a-f17b811922a4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d66c0390-8231-4299-87c6-8a4a8dd0720e","path":"sprites/sBlood/sBlood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d66c0390-8231-4299-87c6-8a4a8dd0720e","path":"sprites/sBlood/sBlood.yy",},"LayerId":{"name":"cbb00ee8-3064-47d3-8956-c558179aa8c8","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBlood","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","name":"d66c0390-8231-4299-87c6-8a4a8dd0720e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sBlood","path":"sprites/sBlood/sBlood.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"66149ff1-7983-433c-8e9f-28f1c0f76c1c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50fd9062-1694-4c29-8a1a-f17b811922a4","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"522f8d5a-9616-407a-98f9-4cc5bb6142c4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d66c0390-8231-4299-87c6-8a4a8dd0720e","path":"sprites/sBlood/sBlood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
