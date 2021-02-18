@@ -1,8 +1,8 @@
 {
   "bboxMode": 0,
-  "collisionKind": 2,
+  "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 8,
   "gridY": 8,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyfly/sEnemyfly.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyfly/sEnemyfly.yy",},"LayerId":{"name":"9988de96-0333-493e-876a-8f37369b8d32","path":"sprites/sEnemyfly/sEnemyfly.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyfly","path":"sprites/sEnemyfly/sEnemyfly.yy",},"resourceVersion":"1.0","name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},"LayerId":{"name":"9988de96-0333-493e-876a-8f37369b8d32","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEnemyflypointattack","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},"resourceVersion":"1.0","name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemyfly","path":"sprites/sEnemyfly/sEnemyfly.yy",},
+    "spriteId": {"name":"sEnemyflypointattack","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2afc43bf-a791-4494-b275-a3067c513dec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyfly/sEnemyfly.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76730833-acb7-4a67-818e-4b9767ed1de6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1f2909f-868a-4958-bd3f-aebd88307ac9","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemyfly","path":"sprites/sEnemyfly/sEnemyfly.yy",},
+    "parent": {"name":"sEnemyflypointattack","path":"sprites/sEnemyflypointattack/sEnemyflypointattack.yy",},
     "resourceVersion": "1.3",
-    "name": "sEnemyfly",
+    "name": "sEnemyflypointattack",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sEnemyfly",
+  "name": "sEnemyflypointattack",
   "tags": [],
   "resourceType": "GMSprite",
 }

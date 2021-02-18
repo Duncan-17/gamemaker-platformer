@@ -1,11 +1,24 @@
 /// @description DIVE
 
-sprite_index = sEnemyflypoint
 
 if instance_exists(oPlayer){
 var dir = point_direction(x, y,oPlayer.x , oPlayer.y);
-hsp = lengthdir_x(0, dir);
-vsp = lengthdir_y(0, dir);
+hsp = lengthdir_x(spd, dir);
+vsp = lengthdir_y(spd, dir);
 }
 
-image_angle = point_direction(x, y,oPlayer.x , oPlayer.y);
+charge = 100
+
+hsp = 0
+vsp = 0
+
+
+
+
+divet -= 1
+
+
+if divet <= 0
+{
+	states = ATTACK
+}

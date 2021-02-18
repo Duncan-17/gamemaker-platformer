@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrMove(){
 	
-	if (place_meeting(x+hsp,y,oWall)){
+	if (place_meeting(x+hsp,y,oWall) && !place_meeting(x+hsp,y,oWalloneway)){
     while (!place_meeting(x+sign(hsp),y,oWall))
 	{
 	    x += sign(hsp);
@@ -14,7 +14,7 @@ x+= hsp
 
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,oWall))
+if (place_meeting(x,y+vsp,oWall) && !place_meeting(x,y+vsp,oWalloneway))
 {
     while (!place_meeting(x,y+sign(vsp),oWall))
 	{

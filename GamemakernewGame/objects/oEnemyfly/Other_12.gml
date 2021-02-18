@@ -1,18 +1,17 @@
 /// @description CHARGE
 
-sprite_index = sEnemyflycharge
-
-
-
-scrMove();
-scrMovepush();
-if !place_meeting(x,y, oEnemyfly) {
-	hsppush = lerp(hsppush , 0 , .1);
-	vsppush = lerp(vsppush , 0 , .1);
-}
-
+spd = 0
 hsp = 0
 vsp = 0
 
-windup = windup -1
+windup -= 1
+
+if windup <= 0
+{
+	states = DIVE
+	divet = 5
+	
+}
+
+
 
