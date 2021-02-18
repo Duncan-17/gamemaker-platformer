@@ -11,10 +11,11 @@ hp = 4
 
 WANDER = 0;
 CHASE = 1;
-//CHARGE = 2;
-//DIVE = 3;
+CHARGE = 2;
+DIVE = 3;
 
 
-state = WANDER;
+states = WANDER;
 
 
+windup = 30

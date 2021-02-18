@@ -1,12 +1,7 @@
 /// @description WANDER
-/*
-if instance_exists(oPlayer){
-var dir = point_direction(x, y,oPlayer.x , oPlayer.y);
-hsp = lengthdir_x(spd, dir);
-vsp = lengthdir_y(spd, dir);
-}
-scrMove();
 
+
+scrMove();
 scrMovepush();
 if !place_meeting(x,y, oEnemyfly) {
 	hsppush = lerp(hsppush , 0 , .1);
