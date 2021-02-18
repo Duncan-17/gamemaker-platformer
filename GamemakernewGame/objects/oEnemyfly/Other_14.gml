@@ -1,7 +1,7 @@
 /// @description ATTACK
 
 
-spd = 5
+spd = 7
 charge -= 1
 
 

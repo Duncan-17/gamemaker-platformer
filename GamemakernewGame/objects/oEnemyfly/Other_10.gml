@@ -1,4 +1,7 @@
 /// @description WANDER
+
+sprite_index = sEnemyfly
+
 spd = 2
 delay -= 1
 
