@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "pShootablewall",
-    "path": "objects/pShootablewall/pShootablewall.yy",
+    "name": "oNonsplatter",
+    "path": "objects/oNonsplatter/oNonsplatter.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

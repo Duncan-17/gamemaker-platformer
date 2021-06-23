@@ -17,7 +17,7 @@ if (mouse_check_button(mb_left))  && (firingdelay < 0)
 	audio_play_sound(snShot,5,false) ////3 is if loop
 	with (instance_create_layer(x,y,"Bullets",oBulletRifle))
 	{
-		speed = 20;
+		speed = 8;
 		direction = other.image_angle + random_range (-2,2);
 		image_angle = direction;	
 	}
