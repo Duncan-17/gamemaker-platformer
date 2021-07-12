@@ -84,8 +84,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ca6c1eb-d55c-4d4d-9f85-9ecc75de44b4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "objects",
+    "path": "folders/Sprites/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "splatformenemyH",

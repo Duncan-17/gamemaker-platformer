@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"decf53af-52dd-4cd8-b44b-da7480db9c66","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "extra",
+    "path": "folders/Sprites/extra.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTurretGun",
