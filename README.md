@@ -26,4 +26,4 @@ Open GamemakernewGame/GamemakernewGame.yyp in GameMaker Studio 2 and press Run. 
 
 ## Status
 
-Unfinished. I stopped in July 2021 while adding a large boss-style enemy. The commit history is the honest record of how it came together, typos and all.
+Unfinished. I stopped in July 2021 while adding a large boss-style enemy. I was forced to stop because I ran into a series of issues which I was entirely unequipped to handle. The main issues were memory leaks, performance issues, and game status saving
